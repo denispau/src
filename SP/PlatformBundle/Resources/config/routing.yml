@@ -1,0 +1,8 @@
+sp_platform_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SPPlatformBundle:Default:index }
+
+sp_platform_pageAccueil:
+    path: /page-d'accueil
+	defaults: {_controller: SPPlatformBundle:Welcome:index}
+	
